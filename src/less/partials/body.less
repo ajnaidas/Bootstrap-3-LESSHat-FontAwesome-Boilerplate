@@ -1,0 +1,57 @@
+/**
+ *
+ * body.less
+ *
+ * @description LESS file to store styles for the Website's Main Body Contents
+ */
+
+h2.sub {
+	color:lighten(#000, 25%);
+	text-align:center;
+	font-size:1.4em;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+#main-content {
+	padding-top:15px;
+	padding-bottom:15px;
+
+	// PACKAGES SECTION
+	// section#packages
+	//===============================================
+
+	#packages {
+		article.package {
+			min-height:230px;
+			background:lighten(#eee, 3%);
+			padding:15px;
+			margin-bottom:15px;
+			.border-radius(8px);
+
+			h3.package-title {
+				font-size:2.4em;
+				color:lighten(#000, 25%);
+			}
+
+			p.package-description {
+				font-size:1.2em;
+				margin-top:15px;
+				margin-bottom:15px;
+			}
+
+			p.package-link-wrapper {
+				padding-top:10px;
+				border-top:1px dashed #ccc;
+			}
+		}
+	}
+
+	// REMINDERS SECTION
+	// section#reinders
+	//===============================================
+
+	#reminders {
+		padding-top:25px;
+	}
+}

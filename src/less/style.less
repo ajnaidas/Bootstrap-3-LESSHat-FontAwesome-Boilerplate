@@ -1,7 +1,21 @@
-@import "bootstrap/bootstrap";
- 
-@import "partials/variables";
-@import "partials/mixins";
-@import "partials/header";
-@import "partials/nav";
-@import "partials/footer";
+/**
+ *
+ * style.less
+ *
+ * @description LESS file that compiles the project into one style.css. This file must contain only @import 
+ * directives to maintain organization of LESS files.
+ *
+ * NOTE: If you are using a LESS Compiler App, Make sure to set the CSS Output Path to public/css :)
+ */
+
+@import "bootstrap/bootstrap"; 						// Import Bootstrap 3.0.2
+@import "fontawesome/font-awesome"; 				// Import Font-Awesome 4.0.2
+@import "lesshat/lesshat"; 							// Import LESS Hat 2
+
+@import "partials/variables"; 						// Import styles in partials/variables.less
+@import "partials/mixins"; 							// Import styles in partials/mixins.less
+@import "partials/globals"; 						// Import styles in partials/globals.less
+@import "partials/header"; 							// Import styles in partials/header.less
+@import "partials/nav"; 							// Import styles in partials/nav.less
+@import "partials/body"; 							// Import styles in partials/body.less
+@import "partials/footer"; 							// Import styles in partials/footer.less
