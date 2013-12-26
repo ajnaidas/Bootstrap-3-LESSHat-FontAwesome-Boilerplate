@@ -26,7 +26,7 @@
         <div id="main-content" class="container">
             <section id="packages" class="row">
                 <div class="col-xs-12 col-sm-6">
-                    <article class="package">
+                    <article class="package well">
                         <h3 class="package-title">Font-Awesome 4.0.3</h3>
                         <p class="package-description">
                             Font Awesome gives you scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS.
@@ -45,7 +45,7 @@
                 </div> <!-- .col -->
 
                 <div class="col-xs-12 col-sm-6">
-                    <article class="package">
+                    <article class="package well">
                         <h3 class="package-title">LESS Hat 2</h3>
                         <p class="package-description">
                             A Kick-ass LESS Mixin Library for everyone.
